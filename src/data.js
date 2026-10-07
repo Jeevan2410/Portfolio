@@ -101,6 +101,13 @@ export const REBUILDS = [
 /** Shown when GitHub can't be reached; the page fetches the live list when it can. */
 export const MERGED_FALLBACK = [
   {
+    repo: "libredb/libredb-studio",
+    number: 1561,
+    title: "Editor drops a selected statement's trailing terminator on engines that take none",
+    url: "https://github.com/libredb/libredb-studio/pull/1561",
+    mergedAt: "2026-10-07",
+  },
+  {
     repo: "lingui/js-lingui",
     number: 2703,
     title: "Vite plugin's native macro transform no longer fails on module ids with a query string",
