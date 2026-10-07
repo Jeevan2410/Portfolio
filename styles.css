@@ -690,17 +690,25 @@ h2 {
   color: #22d3ee;
 }
 
-/* Three across, then the last two share a row: no lonely card at the end. */
+/* Four across; a shorter last row widens its cards to fill it, so no card is left alone. */
 .rebuilds {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 18px;
 }
 .rebuilds > .mini {
-  grid-column: span 2;
-}
-.rebuilds > .mini:nth-child(n + 4):nth-last-child(-n + 2) {
   grid-column: span 3;
+}
+.rebuilds > .mini:nth-child(4n + 1):nth-last-child(3),
+.rebuilds > .mini:nth-child(4n + 1):nth-last-child(3) ~ .mini {
+  grid-column: span 4;
+}
+.rebuilds > .mini:nth-child(4n + 1):nth-last-child(2),
+.rebuilds > .mini:nth-child(4n + 1):nth-last-child(2) ~ .mini {
+  grid-column: span 6;
+}
+.rebuilds > .mini:nth-child(4n + 1):last-child {
+  grid-column: span 12;
 }
 .mini img {
   aspect-ratio: 16 / 10;
@@ -977,7 +985,7 @@ h2 {
     grid-template-columns: minmax(0, 1fr);
   }
   .rebuilds > .mini,
-  .rebuilds > .mini:nth-child(n + 4):nth-last-child(-n + 2) {
+  .rebuilds > .mini[class] {
     grid-column: auto;
   }
   .card.featured,

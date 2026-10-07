@@ -90,6 +90,20 @@ export const REBUILDS = [
     code: "https://github.com/Jeevan2410/Calculator",
   },
   {
+    name: "Jeevan Travels",
+    summary: "Was a template with fake login forms and 52 MB of video; now a trip planner on a 3D dotted globe with live weather and share links.",
+    image: "assets/work/travels.webp",
+    live: "https://travel-website-ashen-seven.vercel.app",
+    code: "https://github.com/Jeevan2410/Travel-Website-",
+  },
+  {
+    name: "JeevanKitchen",
+    summary: "Was a restaurant template with fake forms; now recipes with a cook mode, one-tap timers from the method, and a screen that stays awake.",
+    image: "assets/work/kitchen.webp",
+    live: "https://food-website-lovat-pi.vercel.app",
+    code: "https://github.com/Jeevan2410/Food-Website",
+  },
+  {
     name: "Halcyon One",
     summary: "Was a store demo with brand names and invented reviews; now a concept smartwatch page with a 3D Three.js model that turns as you scroll.",
     image: "assets/work/halcyon.webp",
