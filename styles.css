@@ -690,10 +690,17 @@ h2 {
   color: #22d3ee;
 }
 
+/* Three across, then the last two share a row: no lonely card at the end. */
 .rebuilds {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 18px;
+}
+.rebuilds > .mini {
+  grid-column: span 2;
+}
+.rebuilds > .mini:nth-child(n + 4):nth-last-child(-n + 2) {
+  grid-column: span 3;
 }
 .mini img {
   aspect-ratio: 16 / 10;
@@ -968,6 +975,10 @@ h2 {
   .projects,
   .rebuilds {
     grid-template-columns: minmax(0, 1fr);
+  }
+  .rebuilds > .mini,
+  .rebuilds > .mini:nth-child(n + 4):nth-last-child(-n + 2) {
+    grid-column: auto;
   }
   .card.featured,
   .card.featured:nth-child(2) {

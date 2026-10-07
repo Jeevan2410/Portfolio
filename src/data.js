@@ -90,6 +90,13 @@ export const REBUILDS = [
     code: "https://github.com/Jeevan2410/Calculator",
   },
   {
+    name: "Halcyon One",
+    summary: "Was a store demo with brand names and invented reviews; now a concept smartwatch page with a 3D Three.js model that turns as you scroll.",
+    image: "assets/work/halcyon.webp",
+    live: "https://jeevan2410.github.io/Landing-Page/",
+    code: "https://github.com/Jeevan2410/Landing-Page",
+  },
+  {
     name: "Reelhouse",
     summary: "Was a copied streaming sign-up page; now an original show browser on TVmaze: billboard, rows, details, search, My List.",
     image: "assets/work/reelhouse.webp",
