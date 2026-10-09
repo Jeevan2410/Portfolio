@@ -130,6 +130,13 @@ export const REBUILDS = [
 export const MERGED_FALLBACK = [
   {
     repo: "libredb/libredb-studio",
+    number: 1609,
+    title: "The Explain panel works on Vitess 25, which refuses to explain a statement naming no table",
+    url: "https://github.com/libredb/libredb-studio/pull/1609",
+    mergedAt: "2026-10-09",
+  },
+  {
+    repo: "libredb/libredb-studio",
     number: 1595,
     title: "CockroachDB routines no longer offer an Edit that every apply refused",
     url: "https://github.com/libredb/libredb-studio/pull/1595",
