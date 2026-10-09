@@ -130,6 +130,20 @@ export const REBUILDS = [
 export const MERGED_FALLBACK = [
   {
     repo: "libredb/libredb-studio",
+    number: 1595,
+    title: "CockroachDB routines no longer offer an Edit that every apply refused",
+    url: "https://github.com/libredb/libredb-studio/pull/1595",
+    mergedAt: "2026-10-08",
+  },
+  {
+    repo: "libredb/libredb-studio",
+    number: 1571,
+    title: "ClickHouse, Druid, libSQL and Couchbase name the refusal and address instead of fetch failed",
+    url: "https://github.com/libredb/libredb-studio/pull/1571",
+    mergedAt: "2026-10-08",
+  },
+  {
+    repo: "libredb/libredb-studio",
     number: 1561,
     title: "Editor drops a selected statement's trailing terminator on engines that take none",
     url: "https://github.com/libredb/libredb-studio/pull/1561",
