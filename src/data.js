@@ -129,6 +129,20 @@ export const REBUILDS = [
 /** Shown when GitHub can't be reached; the page fetches the live list when it can. */
 export const MERGED_FALLBACK = [
   {
+    repo: "reticlehq/reticle",
+    number: 1574,
+    title: "reticle init finds a Next.js root layout that lives in a route group",
+    url: "https://github.com/reticlehq/reticle/pull/1574",
+    mergedAt: "2026-10-13",
+  },
+  {
+    repo: "lingui/js-lingui",
+    number: 2718,
+    title: "Macro docs drop a format prop Plural and SelectOrdinal never had",
+    url: "https://github.com/lingui/js-lingui/pull/2718",
+    mergedAt: "2026-10-13",
+  },
+  {
     repo: "libredb/libredb-studio",
     number: 1620,
     title: "Inline row edit saves on StarRocks, which refuses to prepare an UPDATE",
