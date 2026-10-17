@@ -130,6 +130,13 @@ export const REBUILDS = [
 export const MERGED_FALLBACK = [
   {
     repo: "reticlehq/reticle",
+    number: 1603,
+    title: "reticle init names the route-group root layouts it left without ReticleDev",
+    url: "https://github.com/reticlehq/reticle/pull/1603",
+    mergedAt: "2026-10-15",
+  },
+  {
+    repo: "reticlehq/reticle",
     number: 1574,
     title: "reticle init finds a Next.js root layout that lives in a route group",
     url: "https://github.com/reticlehq/reticle/pull/1574",
