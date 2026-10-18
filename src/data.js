@@ -130,6 +130,20 @@ export const REBUILDS = [
 export const MERGED_FALLBACK = [
   {
     repo: "reticlehq/reticle",
+    number: 1720,
+    title: "reticle init and setup mcp no longer crash on Android, FreeBSD or OpenBSD",
+    url: "https://github.com/reticlehq/reticle/pull/1720",
+    mergedAt: "2026-10-17",
+  },
+  {
+    repo: "reticlehq/reticle",
+    number: 1719,
+    title: "reticle init leaves a CLAUDE.md that only imports AGENTS.md alone",
+    url: "https://github.com/reticlehq/reticle/pull/1719",
+    mergedAt: "2026-10-17",
+  },
+  {
+    repo: "reticlehq/reticle",
     number: 1603,
     title: "reticle init names the route-group root layouts it left without ReticleDev",
     url: "https://github.com/reticlehq/reticle/pull/1603",
