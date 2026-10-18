@@ -130,6 +130,13 @@ export const REBUILDS = [
 export const MERGED_FALLBACK = [
   {
     repo: "reticlehq/reticle",
+    number: 1730,
+    title: "The stale-response check treats page_size and other paging spellings as pagination, not a race",
+    url: "https://github.com/reticlehq/reticle/pull/1730",
+    mergedAt: "2026-10-18",
+  },
+  {
+    repo: "reticlehq/reticle",
     number: 1720,
     title: "reticle init and setup mcp no longer crash on Android, FreeBSD or OpenBSD",
     url: "https://github.com/reticlehq/reticle/pull/1720",
